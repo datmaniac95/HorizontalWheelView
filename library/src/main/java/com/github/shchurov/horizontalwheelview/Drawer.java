@@ -107,7 +107,7 @@ class Drawer {
         int zeroIndex = calcZeroIndex(step);
         setupColorSwitches(step, offset, zeroIndex);
         drawMarks(canvas, zeroIndex);
-        drawCursor(canvas);
+        //drawCursor(canvas);
     }
 
     private void setupGaps(double step, double offset) {
